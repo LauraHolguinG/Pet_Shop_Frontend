@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.menu_regional{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+}
+.nav1 li{
+    display: inline-block;
+    margin: 10px;
+}
+.menu_principal{
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+.nav2 li{
+    display: inline-block;
+    margin: 20px;
+}
+.fondo_plato{
+    background-image: url(../img/plato.png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.box{
+text-align: center;
+}
+.box h2{
+    background-color: white;
+    height: 54px;
+    width: 365px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 20px;
+}
+.box button{
+    background-color: #F0A83E;
+    border: none;
+    height: 49px;
+    width: 141px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    margin: 20px;
+}
+.seccion{
+    height: 230px;
+    text-align: center;
+    margin: 30px;
+}
+h1{
+    font-size: 40px;
+    color: #3C2313;
+}
+.ventas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box1 .box2 .box3{
+    background-color: #fafaf6;
+}
+.ventas h3{
+    color: #3C2313;
+    text-align: center;
+}
+.ventas p{
+    color: #F0A83E;
+    text-align: center;
+}
+footer{
+    background-color: #222222;
+    text-align: center;
+    color: white;
+    height: 20px;
+}
+.suscripcion{
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.suscripcion .ingreso{
+    display: flex;
+    flex-direction: row;
+}
+.suscripcion p{
+    color: #A0A0A0;
+    background-color: white;
+    height: 20px;
+    width: 271px;
+    height: 30px;
+    margin: 10px 2px;
+    border-radius: 15px;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+}
+.suscripcion button{
+    background-color: #3C2313;
+    height: 30px;
+    color: white;
+    border: none;
+    margin: 10px 2px;
+    border-radius: 15px;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    margin: 78px 100px;
+}
+.contacto p{
+    display: flex;
+    align-items: center;
+    background-color: #3C2313;
+    color: white;
+    width: 400px;
+    margin: 10px;
+    height: 45px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 9px;
+}
+.contacto h3{
+    margin: 10px;
+    font-size: 25px;
+}
+.grey{
+    background-color: #8A8787;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    height: 34px;
+    width: 110px;
+    margin: 10px;
+}
+.yellow{
+    background-color: #F0A83E;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    height: 34px;
+    width: 110px;
+    margin: 10px;
+}
+.contacto2 .fa-solid{
+    background-color: #A0A0A0;
+    width: 60px;
+    height: 60px;
+    border: solid 5px #8A8787;
+    border-radius: 29.5px;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+}
+.contacto2{
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+.columna1{
+    display: flex;
+    flex-direction: column;
+}
+.columna2{
+    display: flex;
+    flex-direction: column;
+}
+.izquierda{
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+}
+.columna2 h2{
+    margin-top: 24px;
+}
+
+
