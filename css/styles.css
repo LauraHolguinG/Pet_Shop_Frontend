@@ -10,7 +10,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 1rem;
     font-size: 1.5rem;
 }
 .menu_regional p{
@@ -22,6 +21,8 @@
     margin: 10px;
     font-size: .5em;
     padding-right: 2rem;
+    padding-left: 0;
+    margin-left: 0;
 }
 .menu_principal{
     background-color: #F0A83E;
@@ -36,8 +37,8 @@
 }
 .nav2 li{
     display: inline-block;
-    margin: 1.5rem;
     font-size: .5em;
+    padding: 0.5rem 2rem;
 }
 .fondo_plato{
     background-image: url(../img/plato.png);
@@ -114,7 +115,7 @@ footer .derechos{
     font-size: 1.5rem;
 }
 .suscripcion h2{
-    padding-left: 5rem;
+    padding-left: 2rem;
 }
 .suscripcion .ingreso{
     display: flex;
@@ -151,7 +152,7 @@ footer .derechos{
     align-items: center;
     background-color: #3C2313;
     color: white;
-    width: 35vw;
+    width: 40vw;
     height: 60px;
     margin: 5px;
     border-radius: 15px;
@@ -212,7 +213,7 @@ footer .derechos{
 .izquierda{
     display: flex;
     flex-direction: row;
-    margin: 70px;
+    margin: 2rem;
 }
 .columna2 h2{
     margin-top: 2rem;
@@ -241,10 +242,11 @@ footer .derechos{
         font-size: 1.5rem;
     }
     .contacto p{
-        width: 55vw;
+        width: 80vw;
     }
-    .botones button{
-        width: 20vw;
+    .botones{
+        display: flex;
+        flex-direction: row;
     }
     .suscripcion{
         flex-direction: column;
@@ -254,23 +256,33 @@ footer .derechos{
     }
     .suscripcion h2{
         font-size: 2rem;
-        padding-left: 0;
+        padding: 1rem;
     }    
     .suscripcion button{
         font-size: 1rem;
-        width: 20vw;
     }
     .suscripcion .ingreso{
         padding-right: 0;
     }
     .contacto2{
         flex-direction: column;
-        justify-content: flex-start;
     }
     .footertot{
         margin: 5vh;
+        padding-left: 6rem;
     }
     .menu_principal{
         padding: 2vh;
+    }
+    .menu_regional{
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .menu_regional p{
+        padding: 0;
+        align-items: center;
+    }
+    .nav1 li{
+        padding: auto;
     }
 }
